@@ -60,10 +60,10 @@ Let m be the weight of the most negative (i.e., smallest) edge.  Add |m| to the 
 
 ## Problem 6
 
-Consider the problem of finding the length of the longest path from a vertex s to a vertex t in a directed acyclic graph `G = (V, E)` with edge-weights `w`.
+Consider the problem of finding the length of the **longest** path from a vertex s to a vertex t in a directed acyclic graph `G = (V, E)` with edge-weights `w`.
 
-• Student A thinks that they can solve this problem using an altered Dijkstra’s Algorithm that stores the maximum cost of each node and uses a maximum cost priority queue (a priority queue that returns the maximum value instead of the minimum value). Why would this **not** work?
-• Describe and write pseudocode for an algorithm that would work. If there exists no path between s and t, then return ∞.
+- Student A thinks that they can solve this problem using an altered Dijkstra’s Algorithm that stores the maximum cost of each node and uses a maximum cost priority queue (a priority queue that returns the maximum value instead of the minimum value). Why would this **not** work?
+- Describe and write pseudocode for an algorithm that would work. If there exists no path between s and t, then return ∞.
 
 ## Problem 7
 
